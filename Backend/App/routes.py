@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 from .services import get_mock_flight_status
-from . import socketio
+from .. import socketio
 
 main = Blueprint('main', __name__)
 
